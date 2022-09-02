@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">InstaCat</string>
+
+    <string name="bottom_nav_cats_title">Котики</string>
+    <string name="bottom_nav_favourites_title">Избранное</string>
+    <string name="bottom_nav_breeds_title">Породы</string>
+
+    <string name="main_toolbar_title_cats">Котики</string>
+    <string name="main_menu_item_help_title">Help</string>
+    <string name="main_something_wrong">Что-то пошло не так!</string>
+    <string name="main_try_again">Попробовать снова</string>
+    <string name="main_cant_update_data">Не удалось обновить данные</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_graph"
+        android:title="@string/bottom_nav_cats_title"
+        android:icon="@drawable/ic_cat"/>
+    <item
+        android:id="@+id/favourites_graph"
+        android:title="@string/bottom_nav_favourites_title"
+        android:icon="@drawable/ic_baseline_favorite_border_24"/>
+    <item
+        android:id="@+id/breeds_graph"
+        android:title="@string/bottom_nav_breeds_title"
+        android:icon="@drawable/ic_breed"/>
+</menu>
