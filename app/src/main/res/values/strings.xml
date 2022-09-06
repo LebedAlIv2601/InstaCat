@@ -10,4 +10,7 @@
     <string name="main_something_wrong">Что-то пошло не так!</string>
     <string name="main_try_again">Попробовать снова</string>
     <string name="main_cant_update_data">Не удалось обновить данные</string>
+    <string name="main_info_text">Здесь можно посмотреть на котов, добавить их в избранное и отфильтровать по породам</string>
+    <string name="base_close_text">Закрыть</string>
+    <string name="main_info_dialog_title">Информация</string>
 </resources>

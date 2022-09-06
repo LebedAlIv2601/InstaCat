@@ -12,6 +12,7 @@ import com.lebedaliv2601.instacat.databinding.ItemCatBinding
 import com.lebedaliv2601.instacat.main.ui.model.CatMainModel
 import com.lebedaliv2601.instacat.utils.BasePagingAdapter
 import com.lebedaliv2601.instacat.utils.HelpFragment
+import com.lebedaliv2601.instacat.utils.customViews.BottomInfoDialog
 import com.lebedaliv2601.instacat.utils.setPagingAction
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import org.koin.core.component.KoinComponent
@@ -63,6 +64,17 @@ class MainFragment : HelpFragment(), KoinComponent {
 
         binding?.cErrorOverlap?.setAction {
             vm.getCatsList(false)
+        }
+
+        binding?.tbMainToolbar?.setOnMenuItemClickListener {
+            when (it.itemId) {
+                R.id.miHelp -> BottomInfoDialog.createDialog(
+                    parentFragmentManager,
+                    getString(R.string.main_info_dialog_title),
+                    getString(R.string.main_info_text)
+                )
+            }
+            true
         }
         initObservers()
     }
